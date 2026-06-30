@@ -1,0 +1,17 @@
+{
+  "collections": [
+    {
+      "name": "properties",
+      "label": "Properties",
+      "fields": [
+        { "name": "title", "type": "string" },
+        { "name": "price", "type": "number" },
+        { "name": "location", "type": "string" },
+        { "name": "images", "type": "list", "of": "string" },
+        { "name": "bedrooms", "type": "number" },
+        { "name": "bathrooms", "type": "number" },
+        { "name": "area", "type": "number" }
+      ]
+    }
+  ]
+}
