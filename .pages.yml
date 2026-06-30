@@ -1,0 +1,19 @@
+collections:
+  properties:
+    fields:
+      title:
+        type: string
+      price:
+        type: number
+      location:
+        type: string
+      images:
+        type: list
+        items:
+          type: string
+      bedrooms:
+        type: number
+      bathrooms:
+        type: number
+      area:
+        type: number
